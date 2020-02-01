@@ -1,0 +1,55 @@
+
+
+.latlon{
+	margin-left:10vw;
+	margin-right:5vw;
+	margin-top:4vw;
+}
+h1{
+
+	padding:20px;
+	text-align: center;
+	font-size: 4vw;
+	background-color: grey;
+   font-family:Arial;
+ }
+.but{
+
+	text-align:center;
+	display:flex;
+	flex-direction: row;
+	padding-right: 2vw;
+}
+
+.btn1{
+	text-align: center;
+	margin-top: 5vw;
+	margin-left:27vw;
+	color:white;
+	text-decoration: none;
+	height:4vw;
+	width:10vw;
+	font-size:1.5vw;
+}
+
+}
+.lib{
+		padding-top:10px;
+
+}
+
+video{
+	border-radius: 10%;
+
+	
+	margin-left:25vw;
+
+}
+
+/*@media only screen and (max-width: 600px) {
+  video{
+	border-radius: 10%;
+	height:240px;
+	width:320px;
+}
+}*/
