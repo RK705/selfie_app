@@ -4,9 +4,9 @@
 function setup() {
   noCanvas();
   const video = createCapture(VIDEO);
-   var width = 400 * AppFramework.displayScaleFactor
-    var height = 640 * AppFramework.displayScaleFactor
-  video.size(width, height);
+   //var width = 400 * AppFramework.displayScaleFactor
+    //var height = 640 * AppFramework.displayScaleFactor
+  
 
   let lat, lon;
   const button = document.getElementById('submit');

@@ -1,55 +1,39 @@
-
-
-.latlon{
-	margin-left:10vw;
-	margin-right:5vw;
-	margin-top:4vw;
+video{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    height:65%;
+    border-radius: 5%;
+   margin-bottom:3%;
+    
 }
-h1{
+ input {
+  background-color: transparent;
+  color: black;
+  border: none;
+  border-bottom: 2px solid grey;
+  border-radius: 0;
+  outline: none;
+}
 
+
+h1{
+   height:auto;
+   width:auto;
 	padding:20px;
 	text-align: center;
 	font-size: 4vw;
 	background-color: grey;
    font-family:Arial;
+   color:white;
+
  }
-.but{
-
-	text-align:center;
-	display:flex;
-	flex-direction: row;
-	padding-right: 2vw;
+.x{
+	text-align:right;
 }
-
-.btn1{
-	text-align: center;
-	margin-top: 5vw;
-	margin-left:27vw;
-	color:white;
-	text-decoration: none;
-	height:4vw;
-	width:10vw;
-	font-size:1.5vw;
+.row{
+	margin-top:3%;
+	margin-top:3%;
+	padding:4%;
 }
-
-}
-.lib{
-		padding-top:10px;
-
-}
-
-video{
-	border-radius: 10%;
-
-	
-	margin-left:25vw;
-
-}
-
-/*@media only screen and (max-width: 600px) {
-  video{
-	border-radius: 10%;
-	height:240px;
-	width:320px;
-}
-}*/
