@@ -2,7 +2,9 @@ getData();
 
 async function getData() {
   const response = await fetch('/api');
+  console.log("api chal rha h");
   const data = await response.json();
+  console.log("json chal rha h");
   const root1 = document.getElementById("row");
   
   for (item of data) {
@@ -16,7 +18,7 @@ async function getData() {
     root.style.fontSize = "15px"
     root.style.paddingBottom = "3%"
      root.style.fontStyle = "oblique"
-
+   console.log("for  chal rha h");
 
     mood.textContent = `Hashtag: ${item.mood}`;
     geo.textContent = `${item.lat.toFixed(5)}°, ${item.lon.toFixed(5)}°`;
@@ -33,6 +35,7 @@ async function getData() {
     //document.("data").appendChild(root)
     root1.appendChild(root);
   }
+    console.log("for k baahr chal rha h");
   console.log(data);
 }
 
