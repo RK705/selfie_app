@@ -3,7 +3,7 @@
 }*/
 function setup() {
   noCanvas();
-  const video = createCapture(VIDEO);
+   const video = createCapture(VIDEO);
    //var width = 400 * AppFramework.displayScaleFactor
     //var height = 640 * AppFramework.displayScaleFactor
   
